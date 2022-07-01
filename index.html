@@ -3,12 +3,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>CV/Port Folio</title>
 </head>
 <body>
     <div class="container my-5">
-        <div class="accordion accordion-flush" id="language">
+        <div class="accordion" id="language">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="danish">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -17,17 +17,61 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#language">
                     <div class="accordion-body">
-                        <h1 class="text-fade text-lg-start text-center">Nicklas Helsberg</h2>
-                        <h6 class="text-fade text-lg-start text-center">nicklashelsberg@gmail.com / lobadk@lobadk.com</h6>
-                        <p class="text-fade text-lg-start text-center">Tlf. 42329300</p>
-                        <div class="text-lg-end text-sm-center text-center">
-                            <img src="assets/nicklas.png" alt="portrait" class="img-fluid rounded img-thumbnail">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h1 class="text-fade text-lg-start text-center">Nicklas Helsberg</h2>
+                                    <h6 class="text-fade text-lg-start text-center">nicklashelsberg@gmail.com / lobadk@lobadk.com</h6>
+                                    <p class="text-fade text-lg-start text-center">Tlf. +45 42329300</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text-lg-end text-center">
+                                        <img src="assets/nicklas small.png" alt="portrait" class="img-fluid rounded img-thumbnail">
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="text-fade text-lg-start text-center">
+                                        <h4 class="fw-bold text-dark">Lidt om mig selv</h4>
+                                    </div>
+                                    <p class="text-fade text-lg-start text-center">
+                                        Jeg elsker at rode med hardware og software, og finde ud af hvordan det fungere/kan bruges. Jeg elsker også at troubleshoote fejl, og kan bruge flere timer eller dage på at troubleshoote dem, bl.a. ved at læse logfiler eller prøve forskellige konfigurationer.
+                                    </p>
+                                </div>
+                                <div class="container">
+                                    <div class="text-fade text-lg-start text-center">
+                                        <h4 class="fw-bold text-dark">Kompetancer og skole</h4>
+                                    </div>
+                                    <p class="text-fade text-lg-start text-center">
+                                        2022-?: Uddannelse i Datateknikker med speciale i programmering på TEC i Lyngby. GF2.
+                                    </p>
+                                    <p class="text-fade text-lg-start text-center">
+                                        2021: 2 måneder i mekaniker skolepraktik. 1 måned i læreplads hos Boldt Automobiler i Humlebæk.
+                                    </p>
+                                    <p class="text-fade text-lg-start text-center">
+                                        2019-2020: Uddannelse som personvognsmekaniker på Unord Teknisk Erhvervsskole. GF1 og GF2. Praktik som mekaniker i 2 uger.
+                                    </p>
+                                    <p class="text-fade text-lg-start text-center">
+                                        2017-2018 Gået i 10. Været til truckshow og virtuelt kørt lastbil. 2 dages praktik som lastbilchauffør hos SCT.
+                                    </p>
+                                </div>
+                                <div class="container">
+                                    <div class="text-fade text-lg-start text-center">
+                                        <h4 class="fw-bold text-dark">Fritid/Hobbyer</h4>
+                                    </div>
+                                    <p class="text-fade text-lg-start text-center">
+                                        Jeg er selvlært systemadministrator på 2 server jeg lejer i Tyskland, hvor jeg bl.a. hoster en email server, billede galleri/uploader, end-to-end enkrypteret fil uploader og andre små projekter, alle sammen open-source fra Github lavet af andre, under domænenavnet lobadk.com. Jeg går også meget op i sikkerhed online, med stærke kodeord i logins, og 2FA systemer, såsom med en Yubikey. 
+                                    </p>
+                                    <p class="text-fade text-lg-start text-center">
+                                        I min fritid kører jeg en blanding af Windows og Linux hvor jeg skifter imellem Arch og Kubuntu. Jeg prøver også at lærer mig selv at kode i Python og C#, ved at skrive små programmer og projekter. De kan alle sammen blive fundet på Github under brugernavnet LobaDK, eller via et vedhæftet link hvis CV’et er sent digitalt.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
